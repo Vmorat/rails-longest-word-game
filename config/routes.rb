@@ -3,4 +3,11 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+  get 'new', to: 'games#new'
+  get 'score', to: 'games#score'
+
+  # class GamesController < ApplicationController
+
+  # end
+
 end
